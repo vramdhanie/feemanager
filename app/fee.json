@@ -1,0 +1,197 @@
+{
+    "academicBody": {
+        "sbcsPartner": false,
+        "id": 27,
+        "description": "\"<p style=\\\"text-align: justify;\\\">The University of London International Programmes are the longest standing flexible and distance learning programmes in the world. For 153 years, University of London degrees have been accessible to students all over the world through the University of London International Programmes. Academic direction for all of the courses offered through the University of London International Programmes is provided by a College of the University of London. This helps ensure that the standard of awards made to International Programmes students are maintained at the same level as the standard of awards made to students studying at a College of the University of London. Academic direction for the BSc and Diploma in Computing and Information Systems is provided by Goldsmiths.</p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;</p>\\r\\n<p style=\\\"text-align: justify;\\\">At <strong>Goldsmiths</strong> subjects are looked at in a creative and unconventional way, but everything is done based on the highest academics standards of teaching and research and the college has been a part of the internationally recognised <strong>University of London</strong> (UOL) for more than a century.<br /><br />Their unique academic approach comes from the interaction and cooperation of fifteen (15) academic departments, together with a number of small centres and units. They offer undergraduate and postgraduate degrees, teacher training, short courses and widen participation opportunities in a wide range of subjects in arts, social sciences, humanities and computing.</p>\"",
+        "name": "University of London International Programmes (Lead College - Goldsmiths)",
+        "shortName": "University of London International Programmes (Lead College - Goldsmiths)"
+    },
+    "fees": [
+        {
+            "amount": 2400,
+            "id": 300843,
+            "description": "FULLY GATE",
+            "feeType": {
+                "id": 11,
+                "name": "Tuition Fee"
+            },
+            "defaultFee": false,
+            "gateFee": false,
+            "payableBy": "Student",
+            "currency": {
+                "id": 1,
+                "symbol": "$",
+                "name": "TT",
+                "exchange": 1
+            }
+        },
+        {
+            "amount": 2400,
+            "id": 300844,
+            "description": "NO GATE",
+            "feeType": {
+                "id": 11,
+                "name": "Tuition Fee"
+            },
+            "defaultFee": false,
+            "gateFee": false,
+            "payableBy": "Student",
+            "currency": {
+                "id": 1,
+                "symbol": "$",
+                "name": "TT",
+                "exchange": 1
+            }
+        },
+        {
+            "amount": 1800,
+            "id": 314409,
+            "description": "NO GATE 25% Discount",
+            "feeType": {
+                "id": 11,
+                "name": "Tuition Fee"
+            },
+            "defaultFee": false,
+            "gateFee": false,
+            "payableBy": "Student",
+            "currency": {
+                "id": 1,
+                "symbol": "$",
+                "name": "TT",
+                "exchange": 1
+            }
+        }
+    ],
+    "courseCode": "",
+    "id": 1861,
+    "programme": {
+        "academicBody": {
+            "sbcsPartner": false,
+            "id": 27,
+            "description": "\"<p style=\\\"text-align: justify;\\\">The University of London International Programmes are the longest standing flexible and distance learning programmes in the world. For 153 years, University of London degrees have been accessible to students all over the world through the University of London International Programmes. Academic direction for all of the courses offered through the University of London International Programmes is provided by a College of the University of London. This helps ensure that the standard of awards made to International Programmes students are maintained at the same level as the standard of awards made to students studying at a College of the University of London. Academic direction for the BSc and Diploma in Computing and Information Systems is provided by Goldsmiths.</p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;</p>\\r\\n<p style=\\\"text-align: justify;\\\">At <strong>Goldsmiths</strong> subjects are looked at in a creative and unconventional way, but everything is done based on the highest academics standards of teaching and research and the college has been a part of the internationally recognised <strong>University of London</strong> (UOL) for more than a century.<br /><br />Their unique academic approach comes from the interaction and cooperation of fifteen (15) academic departments, together with a number of small centres and units. They offer undergraduate and postgraduate degrees, teacher training, short courses and widen participation opportunities in a wide range of subjects in arts, social sciences, humanities and computing.</p>\"",
+            "name": "University of London International Programmes (Lead College - Goldsmiths)",
+            "shortName": "University of London International Programmes (Lead College - Goldsmiths)"
+        },
+        "id": 476,
+        "legacyCode": "151",
+        "description": "\"\"",
+        "name": "Diploma in Computing and Information Systems ",
+        "qualificationLevel": {
+            "id": 10,
+            "title": "Diploma",
+            "abbreviation": "Diploma"
+        },
+        "fees": [
+            {
+                "amount": 1000,
+                "id": 8709,
+                "description": "",
+                "feeType": {
+                    "id": 1,
+                    "name": "Administration Fee"
+                },
+                "defaultFee": false,
+                "gateFee": false,
+                "payableBy": "Student",
+                "currency": {
+                    "id": 1,
+                    "symbol": "$",
+                    "name": "TT",
+                    "exchange": 1
+                }
+            }
+        ],
+        "displayName": "University of London International Programmes (Lead College - Goldsmiths) Diploma Diploma in Computing and Information Systems ",
+        "groups": []
+    },
+    "courseModuleType": "LONG_COURSE",
+    "duration": 3,
+    "legacyCode": "",
+    "description": "\"Dip. CIS Year 1\"",
+    "name": "Mathematics for Business Tutorials",
+    "qualificationLevel": {
+        "id": 10,
+        "title": "Diploma",
+        "abbreviation": "Diploma"
+    },
+    "shortName": "MFBT",
+    "displayName": "University of London International Programmes (Lead College - Goldsmiths) Diploma Mathematics for Business Tutorials",
+    "groups": [
+        {
+            "academicBody": {
+                "sbcsPartner": false,
+                "id": 27,
+                "description": "\"<p style=\\\"text-align: justify;\\\">The University of London International Programmes are the longest standing flexible and distance learning programmes in the world. For 153 years, University of London degrees have been accessible to students all over the world through the University of London International Programmes. Academic direction for all of the courses offered through the University of London International Programmes is provided by a College of the University of London. This helps ensure that the standard of awards made to International Programmes students are maintained at the same level as the standard of awards made to students studying at a College of the University of London. Academic direction for the BSc and Diploma in Computing and Information Systems is provided by Goldsmiths.</p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;</p>\\r\\n<p style=\\\"text-align: justify;\\\">At <strong>Goldsmiths</strong> subjects are looked at in a creative and unconventional way, but everything is done based on the highest academics standards of teaching and research and the college has been a part of the internationally recognised <strong>University of London</strong> (UOL) for more than a century.<br /><br />Their unique academic approach comes from the interaction and cooperation of fifteen (15) academic departments, together with a number of small centres and units. They offer undergraduate and postgraduate degrees, teacher training, short courses and widen participation opportunities in a wide range of subjects in arts, social sciences, humanities and computing.</p>\"",
+                "name": "University of London International Programmes (Lead College - Goldsmiths)",
+                "shortName": "University of London International Programmes (Lead College - Goldsmiths)"
+            },
+            "id": 477,
+            "description": "\"\"",
+            "name": "Level - 1",
+            "qualificationLevel": {},
+            "fees": [
+                {
+                    "amount": 1000,
+                    "id": 8674,
+                    "description": "SBCS Administration Fee",
+                    "feeType": {
+                        "id": 1,
+                        "name": "Administration Fee"
+                    },
+                    "defaultFee": false,
+                    "gateFee": false,
+                    "payableBy": "Student",
+                    "currency": {
+                        "id": 1,
+                        "symbol": "$",
+                        "name": "TT",
+                        "exchange": 1
+                    }
+                }
+            ],
+            "displayName": "University of London International Programmes (Lead College - Goldsmiths)  Level - 1",
+            "groups": [
+                {
+                    "academicBody": {
+                        "sbcsPartner": false,
+                        "id": 27,
+                        "description": "\"<p style=\\\"text-align: justify;\\\">The University of London International Programmes are the longest standing flexible and distance learning programmes in the world. For 153 years, University of London degrees have been accessible to students all over the world through the University of London International Programmes. Academic direction for all of the courses offered through the University of London International Programmes is provided by a College of the University of London. This helps ensure that the standard of awards made to International Programmes students are maintained at the same level as the standard of awards made to students studying at a College of the University of London. Academic direction for the BSc and Diploma in Computing and Information Systems is provided by Goldsmiths.</p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;</p>\\r\\n<p style=\\\"text-align: justify;\\\">At <strong>Goldsmiths</strong> subjects are looked at in a creative and unconventional way, but everything is done based on the highest academics standards of teaching and research and the college has been a part of the internationally recognised <strong>University of London</strong> (UOL) for more than a century.<br /><br />Their unique academic approach comes from the interaction and cooperation of fifteen (15) academic departments, together with a number of small centres and units. They offer undergraduate and postgraduate degrees, teacher training, short courses and widen participation opportunities in a wide range of subjects in arts, social sciences, humanities and computing.</p>\"",
+                        "name": "University of London International Programmes (Lead College - Goldsmiths)",
+                        "shortName": "University of London International Programmes (Lead College - Goldsmiths)"
+                    },
+                    "id": 476,
+                    "legacyCode": "151",
+                    "description": "\"\"",
+                    "name": "Diploma in Computing and Information Systems ",
+                    "qualificationLevel": {
+                        "id": 10,
+                        "title": "Diploma",
+                        "abbreviation": "Diploma"
+                    },
+                    "fees": [
+                        {
+                            "amount": 1000,
+                            "id": 8709,
+                            "description": "",
+                            "feeType": {
+                                "id": 1,
+                                "name": "Administration Fee"
+                            },
+                            "defaultFee": false,
+                            "gateFee": false,
+                            "payableBy": "Student",
+                            "currency": {
+                                "id": 1,
+                                "symbol": "$",
+                                "name": "TT",
+                                "exchange": 1
+                            }
+                        }
+                    ],
+                    "displayName": "University of London International Programmes (Lead College - Goldsmiths) Diploma Diploma in Computing and Information Systems ",
+                    "groups": []
+                }
+            ]
+        }
+    ]
+}
