@@ -1,7 +1,50 @@
 <h2>Course Fees</h2>
 
 
-<div ng-repeat="f in fees">
-    {{f.amount}} {{f.description}}
+<div class="panel panel-default" ng-show="fees.length">
+    <div class="panel-heading">
+        <h4>Non-Gate Fees</h4>
+    </div>
+    <div class="panel-body">These fees are payable by the student.</div>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="fee in fees | filter:{'gateFee':false} | orderBy:fee.id:reverse">
 
+            <h4 class="list-group-item-heading">{{ fee.feeType.name }}</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="list-group-item-text">{{fee.description || 'no description'}}</p>
+                </div>
+                <div class="col-sm-2">{{ fee.currency.symbol }} {{fee.amount | number:2}}</div>
+                <div class="col-sm-2"><span ng-hide="fee.defaultFee">Not</span> Default Fee</div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary btn-xs fa fa-edit" ng-click="open(fee)"></button>
+                    <button class="btn btn-danger btn-xs fa fa-times-circle" ng-click="delete(fee)"></button>
+                </div>
+            </div>
+        </li>
+    </ul>
 </div>
+
+
+<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Gate Fees</h4>
+						</div>
+					<div class="panel-body">These fees are payable by GATE.</div>
+						<ul class="list-group">
+							<li class="list-group-item" ng-repeat="fee in fees | filter:{'gateFee':true} | orderBy:fee.id:reverse">
+								<h4 class="list-group-item-heading">{{fee.feeType.name }}</h4>
+          						<div class="row">
+          							<div class="col-sm-3"><p class="list-group-item-text">{{fee.description || 'no description'}} </p></div>
+          							<div class="col-sm-2">{{ fee.currency.symbol }} {{fee.amount | number:2}}</div>
+          							<div class="col-sm-2"><span ng-hide="fee.defaultFee">Not</span> Default Fee</div>
+          							<div class="col-sm-3">
+          								<button class="btn btn-primary btn-xs fa fa-edit" ng-click="open(fee)"></button>
+                            			<button class="btn btn-danger btn-xs fa fa-times-circle" ng-click="delete(fee)"></button>
+          							</div>
+          						</div>
+							</li>
+						</ul>
+
+
+					</div>

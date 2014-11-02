@@ -16,7 +16,7 @@
                 "name": "Tuition Fee"
             },
             "defaultFee": false,
-            "gateFee": false,
+            "gateFee": true,
             "payableBy": "Student",
             "currency": {
                 "id": 1,
